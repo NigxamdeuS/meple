@@ -1,0 +1,365 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>めぷるファミリー</title>
+<meta name="description"  content="書籍「動くWebデザインアイディア帳」のサンプルサイトです">
+<meta name="robots" content="noindex,nofollow"><meta name="keywords"  content="">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<!--=============Google Font ===============-->
+<link href="https://fonts.googleapis.com/css?family=Sawarabi+Gothic%7CTeko&display=swap" rel="stylesheet">
+<!--==============レイアウトを制御する独自のCSSを読み込み===============-->
+<!--自作のCSS-->
+<link rel="stylesheet" type="text/css" href="css/reset.css">
+<link rel="stylesheet" type="text/css" href="css/parts.css">
+<link rel="stylesheet" type="text/css" href="css/layout.css">
+</head>
+
+<body>
+
+<div id="splash">
+<div id="splash-logo">
+    <div class="loader"></div><br>Loading
+</div>
+<!--/splash--></div>
+<div class="splashbg"></div><!---画面遷移用-->
+
+<div id="container">
+    
+<header id="header">
+<h1 id="identity"><a href="#"><span class="smoothText"><span class="smoothTextTrigger">MapleFamily</span></span></a></h1>
+<div class="fixed">
+<canvas id="particle"></canvas>
+<canvas id="waveCanvas"></canvas>
+<div class="scrolldown3"><span>Scroll</span></div>
+<!--/fixed--></div>
+</header>
+    
+<div class="openbtn smoothTrigger"><div class="openbtn-area"><span></span><span></span><span></span></div></div>
+<nav id="g-nav">
+<div id="g-nav-list">
+<ul>
+<li><a href="#header">Top</a></li>	
+<li><a href="#concept">Concept</a></li>	
+<li><a href="#service">Member</a></li>	
+<li><a href="#about">About</a></li>
+<li><a href="#contact">Contact</a></li>	
+</ul>
+</div>
+</nav>
+<div class="circle-bg"></div>
+
+<main id="main-area">
+
+<section id="concept" class="fixed">
+    <div class="inner">
+    <h2><span class="smoothText"><span class="smoothTextTrigger">Concept</span></span></h2>
+    <h3><span class="smoothText"><span class="smoothTextTrigger">ワクワクどきどき</span></span></h3>
+    <p><span class="smoothText"><span class="smoothTextTrigger">新しいコミュニティーで<br>つなげよう！広げよう！<br>あなたの&quot;変えたい&quot;を叶えます</span></span></p>
+    <div class="smoothTrigger"><a href="https://x.com/maplefamily0423" class="btn02 rotatefront"><span>更新X</span><span>Go to the page!</span></a></div>
+    <!--/inner--></div>
+</section>
+    
+<section id="service" class="fixed">
+    <div class="inner">
+    <h2><span class="smoothText"><span class="smoothTextTrigger">Member</span></span></h2>
+    <div class="service-area">
+    <section>
+        <div class="service-img">
+            <object data="images/fortnite.svg" type="image/svg+xml"></object>
+        </div>
+        <h4><span class="smoothText"><span class="smoothTextTrigger">Fortnite</span></span></h4>
+        <p class="caption"><span class="smoothText"><span class="smoothTextTrigger">バトルロイヤル＋建築要素</span></span></p>
+        <p><span class="smoothText"><span class="smoothTextTrigger">建築と戦闘を組み合わせたゲーム建物を建てて有利を取るなど、<br>反射神経と創造力が必要。</span></span></p>    
+    </section>
+        
+    <section>
+        <div class="service-img">
+            <object data="images/apex-legends.svg" type="image/svg+xml"></object>  
+        <!--/service-img--></div>
+
+        <h4><span class="smoothText"><span class="smoothTextTrigger">Apex Legends</span></span></h4>
+        <p class="caption"><span class="smoothText"><span class="smoothTextTrigger">バトルロイヤル</span></span></p>
+        <p><span class="smoothText"><span class="smoothTextTrigger">3人チームが基本で、レジェンドにスキルがあり、<br>戦略的なチームプレイが重要。</span></span></p>    
+    </section>
+        
+    <section>
+        <div class="service-img">
+            <object data="images/valorant-logo.svg" type="image/svg+xml"></object>  
+        <!--/service-img--></div>
+
+        <h4><span class="smoothText"><span class="smoothTextTrigger">VALORANT</span></span></h4>
+        <p class="caption"><span class="smoothText"><span class="smoothTextTrigger">タクティカルシューター</span></span></p>
+        <p><span class="smoothText"><span class="smoothTextTrigger">5対5で攻撃と防衛に分かれ、爆弾設置や解除が目標。<br>役割分担とエイムが重要。</span></span></p>    
+    </section>
+</section>
+<section class="fixed">
+    <div class="memberbox">
+        <h4>Owner</h4>
+        <ul class="member2">
+            <li class="sensyu">
+             <span><img src="images/mepuru.jpg" class="sensyuimg" alt="" width="50px" height="50px"></span>
+             <span><h1>めぷる</h1></span>
+             
+            <div class="social-media">
+              <a href="https://twitter.com/maple_o4"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+              </svg></a>
+              <a href="https://www.twitch.tv/maple_o4"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitch" viewBox="0 0 16 16">
+                <path d="M3.857 0 1 2.857v10.286h4.429V16l2.857-2.857H9.57L14.714 8V0h4.857zm9.714 7.429-2.285 2.285H9l-2 2v-2h4.429V1.143h9.142v6.286z"/>
+                <path d="M11.857 3.143h-1.143V6.57h1.143V3.143zm-3.143 0H7.571V6.57h1.143V3.143z"/>
+              </svg></a>
+            </div>
+            </li>
+        </ul>
+    </div>
+</section>
+<section class="fixed">
+      <div class="memberbox">
+         <h4>valorant.div</h4>
+        <ul class="member">
+          <li class="sensyu">
+              <span><img src="#" class="sensyuimg" alt="" width="200px" height="200px"></span>
+              <span><h1>Ta28</h1></span>
+              
+              <div class="social-media">
+                <a href="https://x.com/Ta28_03184"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                  <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                </svg></a>
+                <a href="https://www.twitch.tv/ta28_1"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitch" viewBox="0 0 16 16">
+                  <path d="M3.857 0 1 2.857v10.286h3.429V16l2.857-2.857H9.57L14.714 8V0H3.857zm9.714 7.429-2.285 2.285H9l-2 2v-2h3.429V1.143h9.142v6.286z"/>
+                  <path d="M11.857 3.143h-1.143V6.57h1.143V3.143zm-3.143 0H7.571V6.57h1.143V3.143z"/>
+                </svg></a>
+            </div>
+          </li>
+          <li class="sensyu">
+              <span><img src="images/瑞音リオ.jpg" class="sensyuimg" alt="" width="200px" height="200px"></span>
+              <span><h1>瑞音リオ</h1></span>
+              <div class="social-media">
+                <a href="https://x.com/mizunerio"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                  <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                </svg></a>
+                <a href="https://www.twitch.tv/mizunerio"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitch" viewBox="0 0 16 16">
+                  <path d="M3.857 0 1 2.857v10.286h3.429V16l2.857-2.857H9.57L14.714 8V0H3.857zm9.714 7.429-2.285 2.285H9l-2 2v-2h3.429V1.143h9.142v6.286z"/>
+                  <path d="M11.857 3.143h-1.143V6.57h1.143V3.143zm-3.143 0H7.571V6.57h1.143V3.143z"/>
+                </svg></a>
+            </div>
+          </li>
+        <li class="sensyu">
+              <span><img src="images/Ba6list.png" class="sensyuimg" alt="" width="200px" height="200px"></span>
+              <span><h1>Ba6list</h1></span>  
+              <div class="social-media">
+                <a href="https://x.com/Ba6list"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                  <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                </svg></a>
+                <a href="https://m.twitch.tv/bablist"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitch" viewBox="0 0 16 16">
+                  <path d="M3.857 0 1 2.857v10.286h3.429V16l2.857-2.857H9.57L14.714 8V0H3.857zm9.714 7.429-2.285 2.285H9l-2 2v-2h3.429V1.143h9.142v6.286z"/>
+                  <path d="M11.857 3.143h-1.143V6.57h1.143V3.143zm-3.143 0H7.571V6.57h1.143V3.143z"/>
+                </svg></a>
+            </div>
+          </li>
+        <li class="sensyu">
+              <span><img src="images/あやや.png" class="sensyuimg" alt="" width="200px" height="200px"></span>
+              <span><h1>あやや</h1></span>
+              <div class="social-media">
+                <a href="https://x.com/ayaya_maple"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                  <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                </svg></a>
+            </div>
+          </li>
+        <li class="sensyu">
+            <span><img src="#" class="sensyuimg" alt="" width="200px" height="200px"></span>
+            <span><h1>Ak1kaze</h1></span>
+            <div class="social-media">
+              <a href="https://x.com/CSGO_Akky"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+              </svg></a>
+              <a href="https://www.twitch.tv/ak1kaze"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitch" viewBox="0 0 16 16">
+                <path d="M3.857 0 1 2.857v10.286h3.429V16l2.857-2.857H9.57L14.714 8V0H3.857zm9.714 7.429-2.285 2.285H9l-2 2v-2h3.429V1.143h9.142v6.286z"/>
+                <path d="M11.857 3.143h-1.143V6.57h1.143V3.143zm-3.143 0H7.571V6.57h1.143V3.143z"/>
+              </svg></a>
+            </div>
+        </li>
+        </ul>
+      </div>
+    </section>
+    <section class="fixed">
+      <div class="memberbox">
+        <h4>Fortnite.div</h4>
+       <ul class="member">
+         <li class="sensyu">
+             <span><img src="images/ぬゅりる.png" class="sensyuimg" alt="" width="200px" height="200px"></span>
+             <span><h1>ぬゅりる</h1></span>
+             <div class="social-media">
+              <a href="https://x.com/Nuyuriru"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+              </svg></a>
+              <a href="https://www.twitch.tv/nullaisnoob"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitch" viewBox="0 0 16 16">
+                <path d="M3.857 0 1 2.857v10.286h3.429V16l2.857-2.857H9.57L14.714 8V0H3.857zm9.714 7.429-2.285 2.285H9l-2 2v-2h3.429V1.143h9.142v6.286z"/>
+                <path d="M11.857 3.143h-1.143V6.57h1.143V3.143zm-3.143 0H7.571V6.57h1.143V3.143z"/>
+              </svg></a>
+         </li>
+         <li class="sensyu">
+            <span><img src="images/流華.png" class="sensyuimg" alt="" width="200px" height="200px"></span>
+            <span><h1>流華</h1></span>
+            <div class="social-media">
+                <a href="https://x.com/zDpTvoAq5k41963"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                  <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                </svg></a>
+                <a href="https://www.twitch.tv/rucafotona"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitch" viewBox="0 0 16 16">
+                  <path d="M3.857 0 1 2.857v10.286h3.429V16l2.857-2.857H9.57L14.714 8V0H3.857zm9.714 7.429-2.285 2.285H9l-2 2v-2h3.429V1.143h9.142v6.286z"/>
+                  <path d="M11.857 3.143h-1.143V6.57h1.143V3.143zm-3.143 0H7.571V6.57h1.143V3.143z"/>
+                </svg></a>
+        </li>
+       </ul>
+      </div>
+</section>
+<section class="fixed">
+      <div class="memberbox">
+          <h4>Apex Legends.div</h4>
+         <ul class="member">
+           <li class="sensyu">
+               <span><img src="images/navy.png" class="sensyuimg" alt="" width="200px" height="200px"></span>
+               <span><h1>navy</h1></span>
+               <div class="social-media">
+                <a href="https://x.com/navy44_com"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                  <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                </svg></a>
+           </li>
+           <li class="sensyu">
+               <span><img src="images/syourinji.jpg" class="sensyuimg" alt="" width="200px" height="200px"></span>
+               <span><h1>しょうりんじ</h1></span>
+               <div class="social-media">
+                <a href="https://x.com/showrinji777"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                  <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                </svg></a>
+                <a href="https://www.twitch.tv/show_rin_ji"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitch" viewBox="0 0 16 16">
+                  <path d="M3.857 0 1 2.857v10.286h3.429V16l2.857-2.857H9.57L14.714 8V0H3.857zm9.714 7.429-2.285 2.285H9l-2 2v-2h3.429V1.143h9.142v6.286z"/>
+                  <path d="M11.857 3.143h-1.143V6.57h1.143V3.143zm-3.143 0H7.571V6.57h1.143V3.143z"/>
+                </svg></a>
+           </li>
+           <li class="sensyu">
+                <span><img src="images/javisoo.png" class="sensyuimg" alt="" width="200px" height="200px"></span>
+                <span><h1>じゃびそー</h1></span>
+                <div class="social-media">
+                    <a href="https://x.com/jav1soo"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                      <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                    </svg></a>
+                    <a href="https://www.twitch.tv/javisoooo"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitch" viewBox="0 0 16 16">
+                      <path d="M3.857 0 1 2.857v10.286h3.429V16l2.857-2.857H9.57L14.714 8V0H3.857zm9.714 7.429-2.285 2.285H9l-2 2v-2h3.429V1.143h9.142v6.286z"/>
+                      <path d="M11.857 3.143h-1.143V6.57h1.143V3.143zm-3.143 0H7.571V6.57h1.143V3.143z"/>
+                    </svg></a>
+            </li>
+         </ul>
+      </div>
+</section>
+<section class="fixed">
+    <div class="memberbox">
+          <h4>Apex academy.div</h4>
+         <ul class="member">
+           <li class="sensyu">
+               <span><img src="images/suke.jpg" class="sensyuimg" alt="" width="200px" height="200px"></span>
+               <span><h1>すけ</h1></span>  
+               <div class="social-media">
+                <a href="https://x.com/sojan2989284556"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                  <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                </svg></a>
+                <a href="https://www.twitch.tv/sukeponpopo"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitch" viewBox="0 0 16 16">
+                  <path d="M3.857 0 1 2.857v10.286h3.429V16l2.857-2.857H9.57L14.714 8V0H3.857zm9.714 7.429-2.285 2.285H9l-2 2v-2h3.429V1.143h9.142v6.286z"/>
+                  <path d="M11.857 3.143h-1.143V6.57h1.143V3.143zm-3.143 0H7.571V6.57h1.143V3.143z"/>
+                </svg></a>
+              </div>
+           </li>
+            <li class="sensyu">
+               <span><img src="images/Star_Tossi.png" class="sensyuimg" alt="" width="200px" height="200px"></span>
+               <span><h1>Star_Tossi</h1></span>  
+               <div class="social-media">
+                <a href="https://x.com/Star_Tossi"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                  <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                </svg></a>
+                <a href="https://www.twitch.tv/startossi"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitch" viewBox="0 0 16 16">
+                  <path d="M3.857 0 1 2.857v10.286h3.429V16l2.857-2.857H9.57L14.714 8V0H3.857zm9.714 7.429-2.285 2.285H9l-2 2v-2h3.429V1.143h9.142v6.286z"/>
+                  <path d="M11.857 3.143h-1.143V6.57h1.143V3.143zm-3.143 0H7.571V6.57h1.143V3.143z"/>
+                </svg></a>
+              </div>
+           </li>
+            <li class="sensyu">
+               <span><img src="images/fukumaru.png" class="sensyuimg" alt="" width="200px" height="200px"></span>
+               <span><h1>fukumaru</h1></span>  
+               <div class="social-media">
+                <a href="https://x.com/hukumaruku12142"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                  <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                </svg></a>
+                <a href="https://m.twitch.tv/hukumarukun/home"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitch" viewBox="0 0 16 16">
+                  <path d="M3.857 0 1 2.857v10.286h3.429V16l2.857-2.857H9.57L14.714 8V0H3.857zm9.714 7.429-2.285 2.285H9l-2 2v-2h3.429V1.143h9.142v6.286z"/>
+                  <path d="M11.857 3.143h-1.143V6.57h1.143V3.143zm-3.143 0H7.571V6.57h1.143V3.143z"/>
+                </svg></a>
+              </div>
+           </li>
+         </ul>
+    </div>
+</section>
+
+
+
+    
+<section id="about" class="fixed">
+    <div class="inner">
+    <h2><span class="smoothText"><span class="smoothTextTrigger">About</span></span></h2>
+    <ul class="about-list smoothTrigger">
+        <li>
+        <dl>
+            <dt>チーム</dt><dd>めぷるファミリー</dd>
+        </dl>
+        </li>
+        <li>
+        <dl>
+            <dt>設立</dt><dd>2024年7月</dd>
+        </dl>
+        </li>
+        <li>
+        <dl>
+            <dt>代表</dt><dd><a href="https://x.com/maple_o4">めぷる</a></dd>
+        </dl>
+        </li>
+        <li>
+        <dl>
+            <dt>連絡先</dt><dd><a href="https://x.com/maplefamily0423">めぷるファミリー同好会</a></dd>
+        </dl>
+        </li>
+    </ul>
+    <!--/inner--></div>
+</section>
+   
+<section id="contact" class="fixed">
+    <div class="inner">
+    <h2><span class="smoothText"><span class="smoothTextTrigger">Contact</span></span></h2>
+    <span class="smoothText"></span><a href="https://docs.google.com/forms/d/e/1FAIpQLSeSYC3ndIlZC-jT7Wg6MpvNEXCd5J48DD4zEJIx9SNRWQjJqg/viewform" target="_blank"><span class="smoothTextTrigger">参加フォームはこちらから！</span></span></a>
+    <p class="mail"><a href="maplefamilydoukoukai@gmail.com"><span class="smoothText"><span class="smoothTextTrigger">maplefamilydoukoukai@gmail.com</span></span></a></p>
+    <ul class="sns-link">
+    <li><a href="#"><span class="smoothText"><span class="smoothTextTrigger"><img src="images/ico_insta.svg" alt="Twitter"></span></span></a></li>
+    <li><a href="#"><span class="smoothText"><span class="smoothTextTrigger"><img src="images/ico_tw.svg" alt="Instagram"></span></span></a></li>
+    </ul>
+    <!--/inner--></div>
+</section>
+
+</main>
+
+<footer id="footer">
+<p><a href="#contact"><span class="smoothText"><span class="smoothTextTrigger">Contact</span></span></a></p>
+<small><span class="smoothText"><span class="smoothTextTrigger">&copy; maplefamily.com</span></span></small>
+</footer>
+   
+<!--/container--></div>
+
+<!--=============JS ===============--> 
+<!--jQuery-->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<!--印象編　5-17　粒子が集まってタイポグラフィーを形成する-->  
+<script src="js/particleText.js"></script>
+<!--印象編　9-4-1　SVG アニメーション-->  
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vivus/0.4.4/vivus.min.js"></script>
+<!--自作のJS-->   
+<script src="js/script.js"></script>
+</body>
+</html>
